@@ -66,7 +66,7 @@ Lower Bound = Q1 - 1.5 * IQR,
 Upper Bound = Q3 + 1.5 * IQR
 
 During the investigation, specific issues were identified and handled:
-* **Cholesterol:** Potential extreme values were handled using **median replacement** to ensure a robust measure of central tendency.
+* **Cholesterol:** Extreme values were handled using **median replacement** to ensure a robust measure of central tendency.
 * **Oldpeak & RestingBP:** Anomalous values were investigated and corrected. Extreme clinical observations were not removed automatically; adjustments were made only where data points were true anomalies rather than valid, rare clinical measurements.
 
 ## 📈 Feature Relevance
