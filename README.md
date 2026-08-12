@@ -62,7 +62,7 @@ The following continuous variables were standardized using `StandardScaler` beca
 
 ## 🔎 Outlier and Anomaly Handling
 Potential outliers and unusual observations were investigated using boxplots and the **Interquartile Range (IQR)** method:
-Lower Bound = Q1 - 1.5 * IQR
+Lower Bound = Q1 - 1.5 * IQR, 
 Upper Bound = Q3 + 1.5 * IQR
 
 During the investigation, specific issues were identified and handled:
