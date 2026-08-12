@@ -76,7 +76,7 @@ Feature relevance was investigated using three distinct approaches to provide a 
 3. **Mutual Information:** To identify features that contain useful information about the target.
 
 ## 🔄 Preprocessing Pipeline
-A preprocessing pipeline was used to ensure that transformations were fitted using the training data only and then applied to the test data. This approach helps prevent data leakage.
+A preprocessing pipeline was used to ensure that transformations were fitted using the training data only and then applied to the test data. This approach helped prevent data leakage.
 
 ```text
 Raw Dataset ↓ 
