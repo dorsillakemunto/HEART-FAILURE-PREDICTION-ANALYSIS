@@ -19,16 +19,9 @@ The dataset contains 918 observations and 12 variables. To maintain a clean work
 │ └── heart_ml_ready.csv # Encoded, scaled dataset ready for training
 │ └── heart_disease_ml_ready.csv # Dataset after advanced EDA, Statistical Analysis & Feature Engineering
 ```
-##Technologies 
--Python 
--Pandas 
--NumPy 
--Matplotlib 
--Seaborn 
--SciPy 
--Scikit-learn 
--Google Colab 
--GitHub 
+## 🎯 Technologies Used
+
+Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn, Google Colab, GitHub 
 
 ### Main Dataset Variables:
 * **Age**, **Sex**, **ChestPainType**, **RestingBP**, **Cholesterol**, **FastingBS**, **RestingECG**, **MaxHR**, **ExerciseAngina**, **Oldpeak**, **ST_Slope**, **HeartDisease**
