@@ -1,37 +1,34 @@
 # Heart Failure Prediction Analysis
 
 ## 📌 Project Overview
-This project focuses on preparing the Heart Failure Prediction Dataset for a future machine-learning classification project.
-The dataset contains 918 patient observations and 12 variables, including clinical predictor variables and the target variable, `HeartDisease`.
-The goal of this project is to clean, transform, and prepare the dataset for machine learning. This project is not intended to diagnose heart disease.
+This project explores the use of data analysis and machine learning techniques to investigate factors associated with the presence of heart disease. The project uses the Heart Failure Prediction Dataset from Kaggle. The dataset contains 918 observations, 11 predictor variables, and a binary target variable, HeartDisease.
 
 ## 🎯 Project Objective
-The main objective is to produce a clean and machine-learning-ready dataset for predicting the presence of heart disease.
-The project focuses on:
-* Inspecting the dataset structure and quality
-* Checking data types
-* Checking for missing values and duplicates
-* Identifying numerical and categorical variables
-* Detecting and handling potential outliers
-* Fixing identified data anomalies
-* Encoding categorical variables
-* Scaling numerical variables
-* Investigating feature relationships and relevance
-* Preparing the final dataset for machine-learning experiments
-* Preventing data leakage during preprocessing
+The main objectives of this project are to: Understand the structure and quality of the dataset. Perform data preprocessing and cleaning. Apply feature engineering techniques. Conduct exploratory data analysis. Investigate relationships between clinical variables and heart disease. Perform statistical hypothesis testing. Analyze correlations and potential multicollinearity. Investigate outliers and feature distributions. Prepare the dataset for subsequent machine learning modeling. 
 
 ## 📊 Dataset & Repository Structure
 The dataset contains 918 observations and 12 variables. To maintain a clean workflow, the project tracking files are organized as follows:
-
 ```text
 ├── data/
 │ ├── raw/
-│ │ └── heart_original.csv # The baseline, untouched dataset
 │ ├── processed/
+│ ├── notebooks/
+│ │ └── heart_original.csv # The baseline, untouched dataset
 │ │ └── heart_cleaned.csv # Dataset after initial anomaly/outlier fixes
 │ └── models/
-│ └── heart_ml_ready.csv # Final encoded, scaled dataset ready for training
+│ └── heart_ml_ready.csv # Encoded, scaled dataset ready for training
+│ └── heart_disease_ml_ready.csv # Dataset after advanced EDA, Statistical Analysis & Feature Engineering
 ```
+##Technologies 
+-Python 
+-Pandas 
+-NumPy 
+-Matplotlib 
+-Seaborn 
+-SciPy 
+-Scikit-learn 
+-Google Colab 
+-GitHub 
 
 ### Main Dataset Variables:
 * **Age**, **Sex**, **ChestPainType**, **RestingBP**, **Cholesterol**, **FastingBS**, **RestingECG**, **MaxHR**, **ExerciseAngina**, **Oldpeak**, **ST_Slope**, **HeartDisease**
@@ -117,8 +114,14 @@ After preprocessing, the dataset has:
 | Feature information | Mutual Information |
 | Data leakage prevention | Training-data-only preprocessing pipeline |
 
+##Statistical Analysis 
+
+Statistical testing was incorporated to move beyond visual exploration and evaluate whether observed relationships were statistically significant.
+The analysis includes: Independent-samples t-tests for selected numerical variables. Chi-square tests of independence for categorical variables. Effect-size analysis to assess the strength of categorical associations. Correlation analysis for numerical variables. 
+A significance level of α = 0.05 was used for hypothesis testing.
+
 ## 🚀 Future Work
-The prepared dataset (`data/models/heart_ml_ready.csv`) is ready for subsequent machine-learning tasks:
+The prepared dataset (`data/models/heart_disease_ml_ready.csv`) is ready for subsequent machine-learning tasks:
 * Training classification models and comparing algorithms
 * Feature selection
 * Cross-validation and model evaluation / interpretation
