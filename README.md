@@ -114,7 +114,7 @@ After preprocessing, the dataset has:
 | Feature information | Mutual Information |
 | Data leakage prevention | Training-data-only preprocessing pipeline |
 
-##Statistical Analysis 
+## 🔎 Statistical Analysis
 
 Statistical testing was incorporated to move beyond visual exploration and evaluate whether observed relationships were statistically significant.
 The analysis includes: Independent-samples t-tests for selected numerical variables. Chi-square tests of independence for categorical variables. Effect-size analysis to assess the strength of categorical associations. Correlation analysis for numerical variables. 
