@@ -6,6 +6,10 @@ This project explores the use of data analysis and machine learning techniques t
 ## 🎯 Project Objective
 The main objectives of this project are to: Understand the structure and quality of the dataset. Perform data preprocessing and cleaning. Apply feature engineering techniques. Conduct exploratory data analysis. Investigate relationships between clinical variables and heart disease. Perform statistical hypothesis testing. Analyze correlations and potential multicollinearity. Investigate outliers and feature distributions. Prepare the dataset for subsequent machine learning modeling. 
 
+## 🎯 Technologies Used
+
+Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn, Google Colab, GitHub 
+
 ## 📊 Dataset & Repository Structure
 The dataset contains 918 observations and 12 variables. To maintain a clean workflow, the project tracking files are organized as follows:
 ```text
@@ -19,9 +23,6 @@ The dataset contains 918 observations and 12 variables. To maintain a clean work
 │ └── heart_ml_ready.csv # Encoded, scaled dataset ready for training
 │ └── heart_disease_ml_ready.csv # Dataset after advanced EDA, Statistical Analysis & Feature Engineering
 ```
-## 🎯 Technologies Used
-
-Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn, Google Colab, GitHub 
 
 ### Main Dataset Variables:
 * **Age**, **Sex**, **ChestPainType**, **RestingBP**, **Cholesterol**, **FastingBS**, **RestingECG**, **MaxHR**, **ExerciseAngina**, **Oldpeak**, **ST_Slope**, **HeartDisease**
